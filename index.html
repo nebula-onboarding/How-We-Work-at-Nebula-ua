@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -153,7 +154,7 @@ footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--hairline);dis
       <ul>
         <li>Налаштувати ПК, браузер та необхідні розширення</li>
         <li>Зрозуміти принципи робочого графіку та комунікації</li>
-        <li>Розібратися з процесом виплат</li>
+        <li>Розібратися з процесом виплат, відпустками, дей-офами та лікарняними</li>
         <li>Ознайомитись із термінами та абревіатурами команди</li>
       </ul>
     </div>
@@ -188,12 +189,22 @@ footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--hairline);dis
       <p>Абревіатури та поняття, які варто знати</p>
       <div class="go">Перейти →</div>
     </button>
+    <button class="cat-card" data-go="portal">
+      <div class="ic" style="background:rgba(111,112,246,.15)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#6F70F6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+      </div>
+      <span class="num">04</span>
+      <h3>Advisor Portal</h3>
+      <p>Запити на Wellness Pause та Health-Related Pause</p>
+      <div class="go">Перейти →</div>
+    </button>
   </div>
 
   <div class="tabbar">
     <button class="tab-btn active" data-tab="setup"><span class="n">01</span>Налаштування ПК</button>
     <button class="tab-btn" data-tab="schedule"><span class="n">02</span>Графік та оплата</button>
     <button class="tab-btn" data-tab="glossary"><span class="n">03</span>Словник термінів</button>
+    <button class="tab-btn" data-tab="portal"><span class="n">04</span>Advisor Portal</button>
   </div>
 
   <!-- PANEL 01 — Налаштування ПК -->
@@ -317,6 +328,64 @@ footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--hairline);dis
     </div>
 
     <div class="sec">
+      <h3>Відпустка</h3>
+    </div>
+    <ul class="list">
+      <li>На відпустку (більше 2 робочих днів відсутності) необхідно робити запит <strong>мінімум за 14 днів</strong> — в особистих повідомленнях із ASM та через платформу.</li>
+      <li>Запити на <strong>Wellness Pause</strong> та <strong>Health-Related Pause</strong> відтепер подаються через <a href="https://advisor-portal-8yhx.onrender.com/" target="_blank" rel="noopener">Advisor Portal</a>.</li>
+      <li>Ти можеш робити запит на відпустку максимум на <strong>7 календарних днів підряд раз на пів року</strong>.</li>
+    </ul>
+
+    <div class="note">
+      <div class="note-label"><span class="tag info">Нове</span></div>
+      Усі запити на Wellness Pause та Health-Related Pause відтепер необхідно направляти через <strong>Advisor Portal</strong>. Детальна інструкція — у розділі <strong>«Advisor Portal»</strong>. 📌 <a href="https://advisor-portal-8yhx.onrender.com/" target="_blank" rel="noopener">Посилання на портал</a>
+    </div>
+
+    <div class="sec">
+      <h3>Оплачувані вихідні (дей-офи)</h3>
+    </div>
+    <ul class="list">
+      <li>В Nebula вихідні нараховуються поступово, починаючи з першого робочого дня, по <strong>1.17 дня за кожен місяць</strong> (з розрахунку 14 днів відпустки на рік).</li>
+      <li>Запит на 1 оплачуваний дей-офф необхідно робити <strong>мінімум за 5 днів</strong> до дати вихідного — в особистих повідомленнях із ASM та через платформу. Якщо потрібен терміновий дей-офф через форс-мажор, важливо узгодити це з ASM.</li>
+      <li>Компенсація оплачуваного дей-оффа нараховується в кінці розрахункового періоду: <strong>$10</strong> за ранковий/денний, <strong>$15</strong> за нічний.</li>
+      <li>Оплачувані вихідні стають доступними після успішного закриття випробувального терміну.</li>
+      <li>Якщо ти не використав оплачувані вихідні протягом календарного року, ці дні переносяться на наступний рік.</li>
+    </ul>
+
+    <div class="sec">
+      <h3>Неоплачувані вихідні</h3>
+    </div>
+    <ul class="list">
+      <li>Якщо оплачувані вихідні закінчились, але дей-офф усе ще потрібен, ти можеш зробити запит на вихідний своїм коштом (неоплачуваний). Такі вихідні також доступні після закриття випробувального терміну.</li>
+      <li>Запит на неоплачуваний дей-офф необхідно робити <strong>мінімум за 7 днів</strong> до дати вихідного — в особистих повідомленнях із ASM та через платформу.</li>
+      <li>На рік доступно <strong>7 неоплачуваних вихідних</strong>. Такий запит обов'язково має бути погоджений ASM (схвалення відбувається лише якщо твоя відсутність не впливає критично на навантаження команди; якщо експертів на зміні недостатньо — тобі запропонують взяти заміну замість неоплачуваного дей-оффа).</li>
+    </ul>
+
+    <div class="sec">
+      <h3>Лікарняні</h3>
+    </div>
+    <p>Якщо ти захворів і погано почуваєшся, ти можеш взяти <strong>Health-Related Pause</strong> через <a href="https://advisor-portal-8yhx.onrender.com/" target="_blank" rel="noopener">Advisor Portal</a> (або натисни «Швидке додавання» в порталі).</p>
+    <div class="group">
+      <h4>Скільки сік лівів доступно</h4>
+      <ul class="list">
+        <li><strong>8 сік лівів на рік</strong> — без довідки</li>
+        <li><strong>15 сік лівів на рік</strong> — з довідкою від лікаря</li>
+      </ul>
+    </div>
+    <p>Експерти, які знаходяться за кордоном і не мають змоги отримати довідку від лікаря / лікарняний лист, можуть мати <strong>23 оплачувані сік ліви на рік</strong> (без довідки) за умови, що оплачується <strong>не більше 12 сік лівів на 6 місяців</strong> (пів року).</p>
+    <div class="group">
+      <h4>Що для цього потрібно</h4>
+      <div class="steps">
+        <div class="step"><div class="step-num">1</div><div class="step-body"><strong>Попередь свого ASM</strong><span>що ти не зможеш вийти на зміну.</span></div></div>
+        <div class="step"><div class="step-num">2</div><div class="step-body"><strong>Після закриття лікарняного</strong><span>передай інформацію своєму ASM.</span></div></div>
+      </div>
+    </div>
+    <div class="note">
+      <div class="note-label"><span class="tag info">Формат повідомлення</span></div>
+      «Привіт! З 21.12.2022 по 26.12.2022 я був/ла на лікарняному. 21.12–23.12 без довідки, 23.12–26.12 був відкритий лікарняний.» Прикріпи лікарняний лист.
+    </div>
+
+    <div class="sec">
       <h3>Процес оплати</h3>
     </div>
     <p>👉 Виплати здійснюються <strong>один раз на місяць</strong>. Наша система розрахункових періодів побудована на циклі 30 днів, тому дати обнулення балансу та виплат щомісячно зміщуються.</p>
@@ -419,6 +488,54 @@ footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--hairline);dis
       <div class="glossary-item"><div class="glossary-term">NDA (Non-Disclosure Agreement)</div><div class="glossary-def">Договір про нерозголошення конфіденційної інформації</div></div>
       <div class="glossary-item"><div class="glossary-term">PDP (Personal Development Plan)</div><div class="glossary-def">План особистісного розвитку</div></div>
       <div class="glossary-item"><div class="glossary-term">Spirituality (Духовність)</div><div class="glossary-def">Внутрішній процес пізнання себе, пошуку глибшого сенсу життя та зв'язку з чимось більшим</div></div>
+    </div>
+  </section>
+
+  <!-- PANEL 04 — Advisor Portal -->
+  <section class="panel" id="portal">
+    <div class="panel-head">
+      <div class="kicker">Розділ 04</div>
+      <h2>Advisor Portal</h2>
+      <p class="lead">Платформа, де ти можеш залишати запити на Wellness Pause та Health-Related Pause, переглядати залишки та відстежувати статуси своїх запитів. 🎉</p>
+    </div>
+
+    <div class="note">
+      <div class="note-label"><span class="tag info">Важливо</span></div>
+      📌 Закріпи лінк, щоб не загубити: <a href="https://advisor-portal-8yhx.onrender.com/" target="_blank" rel="noopener">Посилання на портал</a>. Наразі це MVP-версія — надалі платформа розширюватиметься. Усі запити відтепер необхідно направляти саме через цю платформу.
+    </div>
+
+    <div class="sec">
+      <h3>Як увійти</h3>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-body"><strong>Перейди за посиланням</strong><span><a href="https://advisor-portal-8yhx.onrender.com/" target="_blank" rel="noopener">advisor-portal-8yhx.onrender.com</a></span></div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-body"><strong>Введи свою особисту пошту</strong></div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-body"><strong>Задай пароль при першому вході</strong><span>система попросить створити пароль (мін. 6 символів).</span></div></div>
+    </div>
+
+    <div class="sec">
+      <h3>Що можна робити в порталі</h3>
+    </div>
+    <ul class="list">
+      <li>Переглядати залишок Wellness Pause та Health-Related Pause</li>
+      <li>Залишати запит на оплачуваний або неоплачуваний Wellness / Health-Related Pause</li>
+      <li>Відстежувати статус своїх запитів (очікує / затверджено / відхилено)</li>
+      <li>Відкликати запит, якщо передумав</li>
+    </ul>
+
+    <div class="sec">
+      <h3>Як залишити запит</h3>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-body"><strong>Обери тип</strong><span>Wellness Pause або Health-Related Pause.</span></div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-body"><strong>Обери оплату</strong><span>Оплачуваний або Неоплачуваний.</span></div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-body"><strong>Вкажи дати</strong><span>один день або діапазон.</span></div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-body"><strong>Натисни «Надіслати запит»</strong><span>твій ASM отримає його і підтвердить.</span></div></div>
+    </div>
+
+    <div class="note">
+      <div class="note-label"><span class="tag warn">Забув пароль?</span></div>
+      Натисни «Забув пароль» на сторінці входу — твій ASM отримає запит і скине пароль. Після цього зможеш задати новий.
     </div>
   </section>
 
