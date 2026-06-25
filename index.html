@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="uk">
 <head>
@@ -171,22 +170,22 @@ footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--hairline);dis
       <p>Дата й час, браузер, розширення та застосунки</p>
       <div class="go">Перейти →</div>
     </button>
-    <button class="cat-card" data-go="schedule">
-      <div class="ic" style="background:rgba(87,255,167,.12)">
-        <svg viewBox="0 0 24 24" fill="none" stroke="#57FFA7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
-      </div>
-      <span class="num">02</span>
-      <h3>Графік та оплата</h3>
-      <p>Робочий розклад, вихідні та процес виплат</p>
-      <div class="go">Перейти →</div>
-    </button>
     <button class="cat-card" data-go="glossary">
       <div class="ic" style="background:rgba(240,96,80,.12)">
         <svg viewBox="0 0 24 24" fill="none" stroke="#F06050" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
       </div>
-      <span class="num">03</span>
+      <span class="num">02</span>
       <h3>Словник термінів</h3>
       <p>Абревіатури та поняття, які варто знати</p>
+      <div class="go">Перейти →</div>
+    </button>
+    <button class="cat-card" data-go="schedule">
+      <div class="ic" style="background:rgba(87,255,167,.12)">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#57FFA7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+      </div>
+      <span class="num">03</span>
+      <h3>Графік та оплата</h3>
+      <p>Робочий розклад, вихідні та процес виплат</p>
       <div class="go">Перейти →</div>
     </button>
     <button class="cat-card" data-go="portal">
@@ -202,8 +201,8 @@ footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--hairline);dis
 
   <div class="tabbar">
     <button class="tab-btn active" data-tab="setup"><span class="n">01</span>Налаштування ПК</button>
-    <button class="tab-btn" data-tab="schedule"><span class="n">02</span>Графік та оплата</button>
-    <button class="tab-btn" data-tab="glossary"><span class="n">03</span>Словник термінів</button>
+    <button class="tab-btn" data-tab="glossary"><span class="n">02</span>Словник термінів</button>
+    <button class="tab-btn" data-tab="schedule"><span class="n">03</span>Графік та оплата</button>
     <button class="tab-btn" data-tab="portal"><span class="n">04</span>Advisor Portal</button>
   </div>
 
@@ -299,10 +298,81 @@ footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--hairline);dis
     </div>
   </section>
 
-  <!-- PANEL 02 — Графік та оплата -->
-  <section class="panel" id="schedule">
+  <!-- PANEL 02 — Словник термінів -->
+  <section class="panel" id="glossary">
     <div class="panel-head">
       <div class="kicker">Розділ 02</div>
+      <h2>Професійний словник термінів</h2>
+      <p class="lead">На початку ти можеш зустрічати різні формулювання та абревіатури. Цей словник допоможе тобі краще орієнтуватися та зрозуміти значення тих чи інших термінів.</p>
+    </div>
+
+    <div class="sec">
+      <h3>Ролі та люди</h3>
+    </div>
+    <div class="glossary-grid">
+      <div class="glossary-item"><div class="glossary-term">Live Advisor</div><div class="glossary-def">«Старший» зміни, до якого варто звертатися під час роботи на чатах з різних питань чи проблем. Він створює черги на брейки, тред зміни та слідкує за комунікацією едвайзорів в треді</div></div>
+      <div class="glossary-item"><div class="glossary-term">ASM (АСМ)</div><div class="glossary-def">Advisor Success Manager — ваш безпосередній менеджер, до якого ви можете звертатись у всіх випадках</div></div>
+      <div class="glossary-item"><div class="glossary-term">QC</div><div class="glossary-def">Quality Control — менеджери, які перевіряють та оцінюють чати експертів</div></div>
+      <div class="glossary-item"><div class="glossary-term">Коуч</div><div class="glossary-def">Фахівець з розвитку, який допомагає покращити експерту робочі компетенції</div></div>
+      <div class="glossary-item"><div class="glossary-term">Кити</div><div class="glossary-def">Постійні VIP-користувачі платформи, які потребують особливої уваги</div></div>
+      <div class="glossary-item"><div class="glossary-term">PU (Power User)</div><div class="glossary-def">Постійний користувач платформи, який регулярно повертається до чатів та цінує глибину, емоційний контакт і довгострокову взаємодію. Павер юзер зазвичай готовий до довших чатів та більш повного розгляду тем</div></div>
+    </div>
+
+    <div class="sec">
+      <h3>Робочий процес</h3>
+    </div>
+    <div class="glossary-grid">
+      <div class="glossary-item"><div class="glossary-term">Thread (Тред)</div><div class="glossary-def">Коментарі до певного поста в Slack</div></div>
+      <div class="glossary-item"><div class="glossary-term">Busy (бізі)</div><div class="glossary-def">Статус в NebulaX, який не дозволяє юзерам надсилати запити на лайв-чати з едвайзором</div></div>
+      <div class="glossary-item"><div class="glossary-term">AFK</div><div class="glossary-def">Away From Keyboard — відлучення, додаткові до брейку (15 хв за зміну)</div></div>
+      <div class="glossary-item"><div class="glossary-term">Break (Брейк)</div><div class="glossary-def">Перерва — час на відпочинок (40 хв під час зміни)</div></div>
+      <div class="glossary-item"><div class="glossary-term">Мес (м1/м2/м3)</div><div class="glossary-def">Офлайн-повідомлення (також пишуть в треди)</div></div>
+      <div class="glossary-item"><div class="glossary-term">Пінг (п1/п2/п3)</div><div class="glossary-def">Запрошення юзера в чат особливим сповіщенням</div></div>
+      <div class="glossary-item"><div class="glossary-term">Грейд</div><div class="glossary-def">Професійний рівень едвайзора, згідно якого розраховується компенсація за хвилину спілкування в чаті</div></div>
+      <div class="glossary-item"><div class="glossary-term">Шедоуінг</div><div class="glossary-def">Метод активного навчання, який полягає в демонстрації робочих навичок менеджером для едвайзорів у режимі реального часу</div></div>
+      <div class="glossary-item"><div class="glossary-term">Зворотній шедоуінг</div><div class="glossary-def">Метод активного навчання, який полягає в демонстрації робочих навичок едвайзорів для менеджера у режимі реального часу</div></div>
+      <div class="glossary-item"><div class="glossary-term">Фідбек</div><div class="glossary-def">Зворотний зв'язок / відгук</div></div>
+      <div class="glossary-item"><div class="glossary-term">Креди (Credentials)</div><div class="glossary-def">Логін і пароль</div></div>
+      <div class="glossary-item"><div class="glossary-term">Engagement (Енгейджмент)</div><div class="glossary-def">Повідомлення, яке стимулює та залучає користувача до продовження діалогу з експертом</div></div>
+      <div class="glossary-item"><div class="glossary-term">FRT (First Response Time)</div><div class="glossary-def">Метрика, яка показує, наскільки швидкою є твоя перша відповідь юзеру під час роботи на чатах</div></div>
+    </div>
+
+    <div class="sec">
+      <h3>Дзвінки та зустрічі</h3>
+    </div>
+    <div class="glossary-grid">
+      <div class="glossary-item"><div class="glossary-term">Sync / Call / 1:1</div><div class="glossary-def">Робочий дзвінок</div></div>
+      <div class="glossary-item"><div class="glossary-term">Q&amp;A (Question &amp; Answer)</div><div class="glossary-def">Дзвінок формату «Питання-відповідь»</div></div>
+      <div class="glossary-item"><div class="glossary-term">Манслік</div><div class="glossary-def">Загальний дзвінок Supply-відділу</div></div>
+      <div class="glossary-item"><div class="glossary-term">АД</div><div class="glossary-def">Аудіо-дзвінок</div></div>
+      <div class="glossary-item"><div class="glossary-term">КС (Коуч-сесія)</div><div class="glossary-def">Індивідуальний або груповий дзвінок з коучем для покращення конкретних робочих компетенцій</div></div>
+      <div class="glossary-item"><div class="glossary-term">МК (Майстер клас)</div><div class="glossary-def">Практична сесія, де коуч демонструє експертні навички або інструменти покроково з поясненнями та відповідями на запитання</div></div>
+    </div>
+
+    <div class="sec">
+      <h3>Відпочинок та паузи</h3>
+    </div>
+    <div class="glossary-grid">
+      <div class="glossary-item"><div class="glossary-term">Health-Related Pause</div><div class="glossary-def">Лікарняний</div></div>
+      <div class="glossary-item"><div class="glossary-term">Wellness Pause</div><div class="glossary-def">Вихідний день за певною потребою едвайзора з попередньою домовленістю з АСМ (відпустка, вимушений вихідний)</div></div>
+      <div class="glossary-item"><div class="glossary-term">Planned Time Off</div><div class="glossary-def">Звичайний вихідний едвайзора, який випадає по паттерну</div></div>
+      <div class="glossary-item"><div class="glossary-term">Q5</div><div class="glossary-def">«П'ятий квартал» — якщо в бізнесі звично вираховувати «квартал» як три місяці, то «п'ятий квартал» в NebulaX — це «період зимових свят». «Сезон, коли юзери відпочивають вдома, проводячи час разом з Nebula»</div></div>
+    </div>
+
+    <div class="sec">
+      <h3>Інше</h3>
+    </div>
+    <div class="glossary-grid">
+      <div class="glossary-item"><div class="glossary-term">NDA (Non-Disclosure Agreement)</div><div class="glossary-def">Договір про нерозголошення конфіденційної інформації</div></div>
+      <div class="glossary-item"><div class="glossary-term">PDP (Personal Development Plan)</div><div class="glossary-def">План особистісного розвитку</div></div>
+      <div class="glossary-item"><div class="glossary-term">Spirituality (Духовність)</div><div class="glossary-def">Внутрішній процес пізнання себе, пошуку глибшого сенсу життя та зв'язку з чимось більшим</div></div>
+    </div>
+  </section>
+
+  <!-- PANEL 03 — Графік та оплата -->
+  <section class="panel" id="schedule">
+    <div class="panel-head">
+      <div class="kicker">Розділ 03</div>
       <h2>Робочий графік та оплата</h2>
       <p class="lead">Поговоримо про твій графік, вихідні дні та про те, як ми підтримуємо безперебійну роботу в Nebula. Розберемося, як організований твій розклад, як повідомляти про зміни та як здійснюються виплати.</p>
     </div>
@@ -417,77 +487,6 @@ footer{margin-top:46px;padding-top:22px;border-top:1px solid var(--hairline);dis
         <div class="title">Словник термінів →</div>
       </div>
       <div class="arr">→</div>
-    </div>
-  </section>
-
-  <!-- PANEL 03 — Словник термінів -->
-  <section class="panel" id="glossary">
-    <div class="panel-head">
-      <div class="kicker">Розділ 03</div>
-      <h2>Професійний словник термінів</h2>
-      <p class="lead">На початку ти можеш зустрічати різні формулювання та абревіатури. Цей словник допоможе тобі краще орієнтуватися та зрозуміти значення тих чи інших термінів.</p>
-    </div>
-
-    <div class="sec">
-      <h3>Ролі та люди</h3>
-    </div>
-    <div class="glossary-grid">
-      <div class="glossary-item"><div class="glossary-term">Live Advisor</div><div class="glossary-def">«Старший» зміни, до якого варто звертатися під час роботи на чатах з різних питань чи проблем. Він створює черги на брейки, тред зміни та слідкує за комунікацією едвайзорів в треді</div></div>
-      <div class="glossary-item"><div class="glossary-term">ASM (АСМ)</div><div class="glossary-def">Advisor Success Manager — ваш безпосередній менеджер, до якого ви можете звертатись у всіх випадках</div></div>
-      <div class="glossary-item"><div class="glossary-term">QC</div><div class="glossary-def">Quality Control — менеджери, які перевіряють та оцінюють чати експертів</div></div>
-      <div class="glossary-item"><div class="glossary-term">Коуч</div><div class="glossary-def">Фахівець з розвитку, який допомагає покращити експерту робочі компетенції</div></div>
-      <div class="glossary-item"><div class="glossary-term">Кити</div><div class="glossary-def">Постійні VIP-користувачі платформи, які потребують особливої уваги</div></div>
-      <div class="glossary-item"><div class="glossary-term">PU (Power User)</div><div class="glossary-def">Постійний користувач платформи, який регулярно повертається до чатів та цінує глибину, емоційний контакт і довгострокову взаємодію. Павер юзер зазвичай готовий до довших чатів та більш повного розгляду тем</div></div>
-    </div>
-
-    <div class="sec">
-      <h3>Робочий процес</h3>
-    </div>
-    <div class="glossary-grid">
-      <div class="glossary-item"><div class="glossary-term">Thread (Тред)</div><div class="glossary-def">Коментарі до певного поста в Slack</div></div>
-      <div class="glossary-item"><div class="glossary-term">Busy (бізі)</div><div class="glossary-def">Статус в NebulaX, який не дозволяє юзерам надсилати запити на лайв-чати з едвайзором</div></div>
-      <div class="glossary-item"><div class="glossary-term">AFK</div><div class="glossary-def">Away From Keyboard — відлучення, додаткові до брейку (15 хв за зміну)</div></div>
-      <div class="glossary-item"><div class="glossary-term">Break (Брейк)</div><div class="glossary-def">Перерва — час на відпочинок (40 хв під час зміни)</div></div>
-      <div class="glossary-item"><div class="glossary-term">Мес (м1/м2/м3)</div><div class="glossary-def">Офлайн-повідомлення (також пишуть в треди)</div></div>
-      <div class="glossary-item"><div class="glossary-term">Пінг (п1/п2/п3)</div><div class="glossary-def">Запрошення юзера в чат особливим сповіщенням</div></div>
-      <div class="glossary-item"><div class="glossary-term">Грейд</div><div class="glossary-def">Професійний рівень едвайзора, згідно якого розраховується компенсація за хвилину спілкування в чаті</div></div>
-      <div class="glossary-item"><div class="glossary-term">Шедоуінг</div><div class="glossary-def">Метод активного навчання, який полягає в демонстрації робочих навичок менеджером для едвайзорів у режимі реального часу</div></div>
-      <div class="glossary-item"><div class="glossary-term">Зворотній шедоуінг</div><div class="glossary-def">Метод активного навчання, який полягає в демонстрації робочих навичок едвайзорів для менеджера у режимі реального часу</div></div>
-      <div class="glossary-item"><div class="glossary-term">Фідбек</div><div class="glossary-def">Зворотний зв'язок / відгук</div></div>
-      <div class="glossary-item"><div class="glossary-term">Креди (Credentials)</div><div class="glossary-def">Логін і пароль</div></div>
-      <div class="glossary-item"><div class="glossary-term">Engagement (Енгейджмент)</div><div class="glossary-def">Повідомлення, яке стимулює та залучає користувача до продовження діалогу з експертом</div></div>
-      <div class="glossary-item"><div class="glossary-term">FRT (First Response Time)</div><div class="glossary-def">Метрика, яка показує, наскільки швидкою є твоя перша відповідь юзеру під час роботи на чатах</div></div>
-    </div>
-
-    <div class="sec">
-      <h3>Дзвінки та зустрічі</h3>
-    </div>
-    <div class="glossary-grid">
-      <div class="glossary-item"><div class="glossary-term">Sync / Call / 1:1</div><div class="glossary-def">Робочий дзвінок</div></div>
-      <div class="glossary-item"><div class="glossary-term">Q&amp;A (Question &amp; Answer)</div><div class="glossary-def">Дзвінок формату «Питання-відповідь»</div></div>
-      <div class="glossary-item"><div class="glossary-term">Манслік</div><div class="glossary-def">Загальний дзвінок Supply-відділу</div></div>
-      <div class="glossary-item"><div class="glossary-term">АД</div><div class="glossary-def">Аудіо-дзвінок</div></div>
-      <div class="glossary-item"><div class="glossary-term">КС (Коуч-сесія)</div><div class="glossary-def">Індивідуальний або груповий дзвінок з коучем для покращення конкретних робочих компетенцій</div></div>
-      <div class="glossary-item"><div class="glossary-term">МК (Майстер клас)</div><div class="glossary-def">Практична сесія, де коуч демонструє експертні навички або інструменти покроково з поясненнями та відповідями на запитання</div></div>
-    </div>
-
-    <div class="sec">
-      <h3>Відпочинок та паузи</h3>
-    </div>
-    <div class="glossary-grid">
-      <div class="glossary-item"><div class="glossary-term">Health-Related Pause</div><div class="glossary-def">Лікарняний</div></div>
-      <div class="glossary-item"><div class="glossary-term">Wellness Pause</div><div class="glossary-def">Вихідний день за певною потребою едвайзора з попередньою домовленістю з АСМ (відпустка, вимушений вихідний)</div></div>
-      <div class="glossary-item"><div class="glossary-term">Planned Time Off</div><div class="glossary-def">Звичайний вихідний едвайзора, який випадає по паттерну</div></div>
-      <div class="glossary-item"><div class="glossary-term">Q5</div><div class="glossary-def">«П'ятий квартал» — якщо в бізнесі звично вираховувати «квартал» як три місяці, то «п'ятий квартал» в NebulaX — це «період зимових свят». «Сезон, коли юзери відпочивають вдома, проводячи час разом з Nebula»</div></div>
-    </div>
-
-    <div class="sec">
-      <h3>Інше</h3>
-    </div>
-    <div class="glossary-grid">
-      <div class="glossary-item"><div class="glossary-term">NDA (Non-Disclosure Agreement)</div><div class="glossary-def">Договір про нерозголошення конфіденційної інформації</div></div>
-      <div class="glossary-item"><div class="glossary-term">PDP (Personal Development Plan)</div><div class="glossary-def">План особистісного розвитку</div></div>
-      <div class="glossary-item"><div class="glossary-term">Spirituality (Духовність)</div><div class="glossary-def">Внутрішній процес пізнання себе, пошуку глибшого сенсу життя та зв'язку з чимось більшим</div></div>
     </div>
   </section>
 
